@@ -3,7 +3,7 @@ import axios from "axios";
 import Pagination from "./Pagination";
 import MovieCard from "./MovieCard";
 
-const Movies = ({ handleAddToWatchList , watchlist }) => {
+const Movies = ({ handleAddToWatchList , watchlist  }) => {
   const [movies, setMovies] = useState(null);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
